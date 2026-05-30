@@ -1,0 +1,17 @@
+
+
+torch
+
+numpy
+pandas
+dataclasses
+
+transformers
+datasets
+accelerate
+
+# For evaluation metrices
+peft
+sentencepiece
+sacrebleu
+unbabel-comet
