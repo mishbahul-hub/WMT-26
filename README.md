@@ -236,7 +236,6 @@ model.print_trainable_parameters()
 
 ## 📈 Results
 
-> _Scores are produced by each notebook. Fill in the table below from your latest runs — keep BLEU↑, chrF++↑, and COMET↑._
 
 ### Arabic &harr; Hindi
 
