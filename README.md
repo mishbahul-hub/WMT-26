@@ -245,16 +245,14 @@ model.print_trainable_parameters()
 | NLLB-200-distilled-600M | Zero-shot | AR→HI | — | — | — |
 | NLLB-200-distilled-1.3B | Zero-shot | AR→HI | — | — | — |
 | NLLB-200-3.3B | Zero-shot | AR→HI | — | — | — |
-| MADLAD-400-3B | Zero-shot | AR→HI | — | — | — |
 | NLLB-200-distilled-600M | Fine-tuned | AR→HI | — | — | — |
-| NLLB-200-distilled-1.3B | LoRA | AR→HI | — | — | — |
 
 ### Arabic &harr; English
 
 | Model | Mode | Direction | BLEU | chrF++ | COMET |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| OPUS-MT-tc-big-ar-en | Pretrained | AR→EN | — | — | — |
-| OPUS-MT-tc-big-en-ar | Pretrained | EN→AR | — | — | — |
+| OPUS-MT-tc-big-ar-en | Pretrained | AR→EN | 32.23 | 54.77 | — |
+| OPUS-MT-tc-big-en-ar | Pretrained | EN→AR | 24.25 | 49.35 | — |
 
 ---
 
@@ -265,9 +263,9 @@ model.print_trainable_parameters()
 - [x] NLLB-600M fine-tuning (both directions)
 - [x] Modular LoRA fine-tuning pipeline for NLLB-1.3B
 - [x] Arabic &rarr; Hindi challenge-set evaluation
-- [ ] Complete the **IndicTrans** integration in `indic-trans/`
+- [x] Complete the **IndicTrans** integration in `indic-trans/`
 - [ ] Publish a consolidated results leaderboard
-- [ ] Release fine-tuned LoRA adapters to the Hub
+- [x] Release fine-tuned LoRA adapters to the Hub
 
 ---
 
