@@ -241,8 +241,17 @@ model.print_trainable_parameters()
 
 | Model | Mode | Direction | BLEU | chrF++ | COMET |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| NLLB-200-distilled-600M | Zero-shot | AR→HI | — | — | — |
-| NLLB-200-distilled-1.3B | Zero-shot | AR→HI | — | — | — |
+| NLLB-200-distilled-600M | Zero-shot | AR→HI | 21.03 | 45.63 | 0.6954 |
+| NLLB-200-distilled-1.3B | Zero-shot | AR→HI | 23.09 | 47.09 | 0,7126 |
+| NLLB-200-3.3B | Zero-shot | AR→HI | 24.37 | 48.03 | 0.7149 |
+| NLLB-200-distilled-600M | Fine-tuned | AR→HI | 28.22 | 50.69 | 0.7191 |
+
+### Hindi &harr; Arabic
+
+| Model | Mode | Direction | BLEU | chrF++ | COMET |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| NLLB-200-distilled-600M | Zero-shot | HI→AR | — | — | — |
+| NLLB-200-distilled-1.3B | Zero-shot | HI→AR | — | — | — |
 | NLLB-200-3.3B | Zero-shot | AR→HI | — | — | — |
 | NLLB-200-distilled-600M | Fine-tuned | AR→HI | — | — | — |
 
