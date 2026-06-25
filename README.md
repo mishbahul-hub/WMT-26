@@ -234,7 +234,7 @@ model.print_trainable_parameters()
 
 ---
 
-## 📈 Results
+## 📈 Results & Graphs 
 
 
 ### Arabic &harr; Hindi
@@ -263,6 +263,7 @@ model.print_trainable_parameters()
 | OPUS-MT-tc-big-en-ar | Pretrained | EN→AR | 24.25 | 49.35 | — |
 
 ---
+
 
 
 ## 🤝 Contributing
