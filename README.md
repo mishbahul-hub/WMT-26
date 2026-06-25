@@ -2,7 +2,7 @@
 <div align="center">
 
 <h1>
-  <samp>· WMT &mdash; 26 ·</samp>
+  #WMT'26
 </h1>
 
 <h3><em>Low-Resource Neural Machine Translation</em></h3>
