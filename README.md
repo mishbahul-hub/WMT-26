@@ -264,7 +264,7 @@ model.print_trainable_parameters()
 
 ---
 
-
+![chart](newplot.png)
 
 ## 🤝 Contributing
 
