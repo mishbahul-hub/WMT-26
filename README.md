@@ -189,6 +189,35 @@ pip install -r "Arabic - Hindi/Fine-tuned/1.3B-finetuned/requirements.txt"
 
 Core dependencies: `torch`, `transformers`, `datasets`, `accelerate`, `peft`, `sentencepiece`, `sacrebleu`, `unbabel-comet`, `pandas`, `numpy`.
 
+
+## How to apply Lora Finetuning :
+```python
+from peft import LoraConfig, get_peft_model, TaskType
+
+lora_cfg = LoraConfig(
+    task_type=TaskType.SEQ_2_SEQ_LM,
+    r=cfg.LORA_R,
+    lora_alpha=cfg.LORA_ALPHA,
+    lora_dropout=cfg.LORA_DROPOUT,
+    bias="none",
+    target_modules=list(cfg.LORA_TARGETS),
+)
+model = get_peft_model(model, lora_cfg)
+model.print_trainable_parameters()
+```
+
+## How to use Lora Adapter :
+
+```python
+from peft import PeftModel
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+
+base = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M")
+tok  = AutoTokenizer.from_pretrained("/kaggle/working/nllb-lora-adapter",
+                                     src_lang="arb_Arab", tgt_lang="hin_Deva")
+model = PeftModel.from_pretrained(base, "/kaggle/working/nllb-lora-adapter")
+```
+
 ---
 
 ## 🛠 Usage
