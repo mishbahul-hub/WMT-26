@@ -288,8 +288,8 @@ model.print_trainable_parameters()
 
 | Model | Mode | Direction | BLEU | chrF++ | COMET |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| OPUS-MT-tc-big-ar-en | Pretrained | AR→EN | 32.23 | 54.77 | — |
-| OPUS-MT-tc-big-en-ar | Pretrained | EN→AR | 24.25 | 49.35 | — |
+| OPUS-MT-tc-big-ar-en | Pretrained | AR→EN | 32.23 | 54.77 | 0.8327 |
+| OPUS-MT-tc-big-en-ar | Pretrained | EN→AR | 24.25 | 49.35 | 0.8777 |
 
 ---
 
