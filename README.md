@@ -294,19 +294,6 @@ model.print_trainable_parameters()
 ---
 
 ![chart](newplot.png)
-
-## 🤝 Contributing
-
-Contributions are welcome. To keep results reproducible:
-
-1. **Fork** the repo and create a branch: `git checkout -b feat/your-experiment`.
-2. Keep each experiment in its **own notebook** following the existing pipeline sections (Config → Data → Model → Translate → Evaluate).
-3. Report **BLEU, chrF++, and COMET** for any new model or checkpoint.
-4. For Python code, prefer the modular style in `1.3B-finetuned/` (config in `config.py`, no hard-coded paths).
-5. Open a **pull request** describing the setup, data, and scores.
-
-Found a bug or have a question? Please [open an issue](https://github.com/mishbahul-hub/WMT-26/issues).
-
 ---
 
 ## 📄 License
