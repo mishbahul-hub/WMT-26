@@ -307,14 +307,13 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Mentor
 
-- [**WMT — Conference on Machine Translation**](https://www2.statmt.org/wmt26/) for the shared-task framing.
-- [**Meta AI — NLLB-200**](https://huggingface.co/facebook/nllb-200-distilled-600M) (*No Language Left Behind*).
-- [**Google — MADLAD-400**](https://huggingface.co/google/madlad400-3b-mt).
-- [**Helsinki-NLP — OPUS-MT**](https://huggingface.co/Helsinki-NLP) and the OPUS project.
-- [**AI4Bharat — IndicTrans**](https://github.com/AI4Bharat/IndicTrans2).
-- [**Unbabel — COMET**](https://github.com/Unbabel/COMET) and [**sacreBLEU**](https://github.com/mjpost/sacrebleu) for evaluation.
+**Dr. Sahinur Rahman Laskar**  
+Assistant Professor  
+School of Computer Science, UPES, Dehradun, India  
+Email: [sahinurlaskar.nits@gmail.com](mailto:sahinurlaskar.nits@gmail.com) / [sahinur.laskar@ddn.upes.ac.in](mailto:sahinur.laskar@ddn.upes.ac.in)  
+GitHub: [@sahinulaskar](https://github.com/sahinulaskar)
 
 <div align="center">
 <sub>Built for low-resource MT research · Arabic &harr; English · Arabic &harr; Hindi</sub>
