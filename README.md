@@ -313,7 +313,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 Assistant Professor  
 School of Computer Science, UPES, Dehradun, India  
 Email: [sahinurlaskar.nits@gmail.com](mailto:sahinurlaskar.nits@gmail.com) / [sahinur.laskar@ddn.upes.ac.in](mailto:sahinur.laskar@ddn.upes.ac.in)  
-GitHub: [@sahinulaskar](https://github.com/sahinulaskar)
+GitHub: [@sahinurlaskar](https://github.com/sahinurlaskar)
 
 <div align="center">
 <sub>Built for low-resource MT research · Arabic &harr; English · Arabic &harr; Hindi</sub>
